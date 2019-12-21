@@ -1,0 +1,24 @@
+{
+  "name": "CryptoPal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "challenge1": "nodemon --exec babel-node challenge1/index.js",
+    "challenge2": "nodemon --exec babel-node challenge2/index.js",
+    "challenge3": "nodemon --exec babel-node challenge3/index.js",
+    "challenge4": "nodemon --exec babel-node challenge4/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.19.4"
+  }
+}
